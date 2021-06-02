@@ -12,7 +12,7 @@ class ClientesCadastrados extends React.Component {
             name="nome"
             type="text"
             requided
-            onChange={}                  
+            onChange={ () => {}}                  
           />
           E-mail:
           <input
@@ -20,7 +20,7 @@ class ClientesCadastrados extends React.Component {
             name="email"
             type="text"
             requided
-            onChange={}                  
+            onChange={() => {} }                  
           />
           Idade:
           <input
@@ -29,12 +29,12 @@ class ClientesCadastrados extends React.Component {
             type="text"
             maxLenght="2"
             requided
-            onChange={}                  
+            onChange={() => {} } 
           />
           <button
             type="button"
           /> 
-        </fieldset>  
+        </fieldset>
       </form>
     </>
     )
